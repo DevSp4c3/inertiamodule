@@ -1,10 +1,4 @@
-local inert = loadstring([[--[[
-	
-	Inertia Module
-	> ben7
-	> version 0.1a ; 9/07/2021
-	
-]]--
+local inert = loadstring([[
 
 local InertiaModule = {}
 
