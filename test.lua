@@ -1,4 +1,4 @@
-local inert = loadstring([[[--[[
+local inert = loadstring([[--[[
 	
 	Inertia Module
 	> ben7
@@ -209,7 +209,7 @@ function InertiaModule:addcommand(specifications)
 	end
 end
 
-return InertiaModule]]])()
+return InertiaModule]])()
 
 a = inert:initialize()
 a.ScreenGui.Parent = game.Players.LocalPlayer.PlayerGui
