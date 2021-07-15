@@ -209,6 +209,8 @@ function InertiaModule:addcommand(specifications)
 	end
 end
 
+inert = InertiaModule:initialize()
+
 InertiaModule:addcommand({
 	funcname = "noclip",
 	func = function() wait(1) inert:colorunderline({
